@@ -16,7 +16,7 @@ Welcome to the project! Follow these simple steps to get started and have your a
 2. **Navigate to the Project Directory**
 
    ```bash
-   cd <your-repo-name>
+   cd <travel-agency>
    ```
 
 3. **Install Dependencies**
