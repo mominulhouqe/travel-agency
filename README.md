@@ -51,12 +51,7 @@ Run the development server to preview your application locally:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Once started, open your browser and navigate to:
