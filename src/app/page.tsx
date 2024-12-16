@@ -3,6 +3,7 @@ import Footer from "@/components/Shared/Footer";
 import Navbar from "@/components/Shared/Navbar";
 
 import Banner from "@/components/UI/Banner";
+import Faq from "@/components/UI/Faq";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
     Write here component
 
 */}
-
+      <Faq />
       <Footer />
     </div>
   );
