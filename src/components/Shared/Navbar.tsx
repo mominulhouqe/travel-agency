@@ -1,3 +1,4 @@
+"use client";
 import logo from "@/assets/imgpsh_fullsize_anim 1.png";
 import Image from "next/image";
 

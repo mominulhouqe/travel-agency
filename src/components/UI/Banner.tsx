@@ -1,3 +1,4 @@
+"use client";
 import bannerImg from "@/assets/5a2f15134b8cc2bd4572a2f9ffc89485.jpg";
 import Image from "next/image";
 import Form from "../Shared/Form";
@@ -17,7 +18,7 @@ const Banner = () => {
       </div>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-2    0"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
       {/* Content */}
       <div className="relative max-w-[1203px] mx-auto z-10 flex flex-col md:flex-row items-center justify-center md:justify-between  gap-4 h-full px-6">
