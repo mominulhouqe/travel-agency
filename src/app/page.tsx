@@ -1,3 +1,4 @@
+import Footer from "@/components/Shared/Footer";
 import Navbar from "@/components/Shared/Navbar";
 import Banner from "@/components/UI/Banner";
 
@@ -6,6 +7,14 @@ export default function Home() {
     <div className="max-w-[1183px] p-[20px] mx-auto">
       <Navbar />
       <Banner />
+
+      {/*
+
+    Write here component
+
+*/}
+
+      <Footer />
     </div>
   );
 }
