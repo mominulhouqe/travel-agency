@@ -3,7 +3,7 @@ import image from "../../assets/Frame 172.png";
 
 const Community = () => {
   return (
-    <div className="max-w-[1183px] px-2 mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12  py-8">
+    <div className="max-w-[1183px] px-2 mx-auto mt-6 flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12  py-8">
       {/* Section-1: Image */}
       <div className="lg:w-1/2 w-full flex justify-center lg:justify-start">
         <Image

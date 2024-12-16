@@ -4,7 +4,7 @@ import image from "../../assets/travle-image.png";
 
 const Traveler = () => {
   return (
-    <div className="bg-white py-6 max-w-[1203px] mx-auto px-2">
+    <div className="bg-white py-6 max-w-[1170px] mx-auto px-2">
       {/* Section-1  */}
       <div className="text-center">
         <p
