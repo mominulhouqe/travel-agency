@@ -4,6 +4,7 @@ import Navbar from "@/components/Shared/Navbar";
 
 import Banner from "@/components/UI/Banner";
 import Faq from "@/components/UI/Faq";
+import Traveler from "@/components/UI/Travelar";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     Write here component
 
 */}
+      <Traveler />
       <Faq />
       <Footer />
     </div>
