@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#F4F4F433] backdrop-blur-lg fixed w-full z-30 opacity-95 top-4 rounded-xl max-w-[1170px] mx-auto px-6 shadow-lg left-1/2 transform -translate-x-1/2">
+    <nav className="bg-[#F4F4F433] backdrop-blur-lg fixed w-full z-30 opacity-95 top-4 rounded-xl max-w-[1170px] px-[15px]  mx-auto  h-[96px] shadow-lg left-1/2 transform -translate-x-1/2">
       <ul className="flex items-center justify-between py-4">
         {/* Logo */}
         <li>
