@@ -8,8 +8,8 @@ const Navbar = () => {
       <ul className="flex items-center justify-between py-4">
         {/* Logo */}
         <li>
-          <a href="#" aria-label="Home" className="flex items-center space-x-2">
-            <Image src={logo} width={108} height={80} alt="logo" />
+          <a href="#" aria-label="Home" className="flex items-center ">
+            <Image src={logo} width={108} height={96} alt="logo" />
           </a>
         </li>
 
@@ -17,7 +17,6 @@ const Navbar = () => {
         <li>
           <a
             href="#"
-            aria-label="Login"
             className="text-sm font-medium text-blue-600 bg-white rounded-lg py-2 px-6 hover:bg-blue-500 hover:text-white shadow-md transition duration-300"
           >
             Login
