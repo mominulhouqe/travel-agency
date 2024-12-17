@@ -8,7 +8,7 @@ import facebookLogo from "../../assets/icons/facebook 1.png";
 
 const Footer = () => {
   return (
-    <div className="my-10 max-w-[1203px] mx-auto px-2">
+    <div className="my-10 max-w-[1203px] mx-auto px-4">
       {/* footer-1st-section  */}
       <div className="flex  flex-col lg:flex-row md:flex-row justify-between items-start lg:items-center  lg:gap-24  pt-8">
         {/* 1st Section */}

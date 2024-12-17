@@ -26,12 +26,12 @@ const Banner = () => {
         <div className="relative max-w-[1203px] mx-auto z-10 flex flex-col md:flex-row items-center justify-center md:justify-between  gap-4 h-full px-6">
           {/* Left Text Content */}
           <div className="text-white md:w-1/2 text-center mt-32 md:mt-0 md:text-left">
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold md:leading-tight">
               The Premier <br /> Co-living Travel Network for Women
             </h1>
             <div className="flex items-center">
               <div className="bg-white h-[3px] w-[38px]"></div>
-              <p className="mt-6 text-base sm:text-lg text-gray-300 ml-4">
+              <p className="mt-6 text-base sm:text-lg  ml-4">
                 Find your perfect housemate, move faster, stay longer, and
                 travel with confidence.
               </p>

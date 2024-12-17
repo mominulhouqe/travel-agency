@@ -7,7 +7,7 @@ import logo from "../../assets/imgpsh_fullsize_anim 1.png";
 
 const Expert = () => {
   return (
-    <div className="my-28 max-w-[1170px] px-[15px]  mx-auto ">
+    <div className="my-28 max-w-[1203px] px-[15px]  mx-auto ">
       {/* section-1  */}
       <div className="text-center">
         <p
@@ -16,10 +16,10 @@ const Expert = () => {
         >
           Why choose us?
         </p>
-        <h1 className="text-[#1D2939] text-5xl font-bold mt-6">
+        <h1 className="text-[#1D2939] text-2xl md:text-5xl font-bold mt-6">
           Why Choose Expat Global Girls
         </h1>
-        <p className="text-xl font-semibold text-[#344054] mt-6">
+        <p className="md:text-xl text-lg  text-[#344054] mt-6">
           Empowering women to travel with confidence and ease worldwide
         </p>
       </div>

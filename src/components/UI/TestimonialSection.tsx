@@ -13,7 +13,7 @@ const TestimonialSection = () => {
         >
           Testimonial
         </p>
-        <h2 className="text-4xl font-bold text-gray-800">
+        <h2 className="md:text-4xl text-lg my-3  font-bold text-gray-800">
           What Our Members Say
         </h2>
         <p className="text-gray-600 mt-2 ">
@@ -51,8 +51,8 @@ const TestimonialSection = () => {
 
         {/* Right Side */}
         <div className="p-6 w-full ">
-          <div className="text-gray-700 text-2xl ">
-            <span className="mb-4s">
+          <div className="text-gray-700 text-lg sm:text-2xl ">
+            <span className="mb-4">
               <Image src={comma1} width={30} height={30} alt="comma" />
             </span>
             <span>
