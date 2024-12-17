@@ -59,15 +59,3 @@ Once started, open your browser and navigate to:
 👉 [http://localhost:3000](http://localhost:3000)
 
 Any changes you make will reflect immediately, thanks to hot reloading. Start editing the main page by modifying `app/page.tsx`.
-
----
-
-<!-- ## 🌐 Deploy on Vercel
-
-Deploying to production is seamless with Vercel:
-
-1. Push your code to a GitHub, GitLab, or Bitbucket repository.
-2. Sign in to [Vercel](https://vercel.com/) and import your repository.
-3. Configure the project settings as needed and click **Deploy**.
-
-Your application will be live at a Vercel-provided URL! -->
