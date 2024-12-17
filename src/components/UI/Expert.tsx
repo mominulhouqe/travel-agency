@@ -22,15 +22,12 @@ const Expert = () => {
       </div>
 
       {/* section-2  */}
-      <div className="flex flex-col lg:flex-row items-center lg:items-start ">
+      <div className="flex flex-col sm:flex-row items-center lg:items-start ">
         {/* inner-section-1  */}
         <div className="mt-10">
           {/* Left Column */}
           <div className="flex  flex-col items-center lg:items-start gap-10">
-            <div
-              className="border pr-16 pb-10 px-6 py-6 rounded-xl shadow-md w-full max-w-lg lg:w-[550px]"
-              style={{ borderBottomRightRadius: "40%" }}
-            >
+            <div className="border pr-16 pb-10 px-6 py-6 rounded-xl  w-full max-w-lg lg:w-[550px] rounded-br-[100px]">
               <Image src={frame} alt="Community for Women" />
               <h4 className="font-bold text-xl my-4">Affordable Housing</h4>
               <p className="text-gray-600">
@@ -38,10 +35,7 @@ const Expert = () => {
                 with fellow members.
               </p>
             </div>
-            <div
-              className="border pb-10 px-6 py-6   rounded-xl pr-16 shadow-md w-full max-w-lg lg:w-[550px]"
-              style={{ borderTopRightRadius: "40%" }}
-            >
+            <div className="border pb-10 px-6 py-6   rounded-xl pr-16  w-full max-w-lg lg:w-[550px] rounded-tr-[100px]">
               <Image src={frame1} alt="Community for Women" />
               <h4 className="font-bold text-xl my-4">Verified Profiles</h4>
               <p className="text-gray-600">
@@ -64,10 +58,7 @@ const Expert = () => {
         <div className="mt-10">
           {/* Right Column */}
           <div className="flex flex-col items-center lg:items-start gap-10 ">
-            <div
-              className="border pb-10 px-6 py-6  pl-16 rounded-xl shadow-md w-full max-w-lg lg:w-[550px]"
-              style={{ borderBottomLeftRadius: "40%" }}
-            >
+            <div className="border pb-10 px-6 py-6  pl-16 rounded-xl  w-full max-w-lg lg:w-[550px] rounded-bl-[100px]">
               <Image src={frame2} alt="Community for Women" />
               <h4 className="font-bold text-xl my-4">Flexible Options</h4>
               <p className="text-gray-600">
@@ -75,10 +66,7 @@ const Expert = () => {
                 have the power to choose.
               </p>
             </div>
-            <div
-              className="border pt-8 px-6 py-6  pl-16 rounded-xl shadow-md w-full max-w-lg lg:w-[550px]"
-              style={{ borderTopLeftRadius: "40%" }}
-            >
+            <div className="border pt-8 px-6 py-6  pl-16 rounded-xl  w-full max-w-lg lg:w-[550px] rounded-tl-[100px]">
               <Image src={frame3} alt="Community for Women" />
               <h4 className="font-bold text-xl my-4">Women-Only Spaces</h4>
               <p className="text-gray-600">

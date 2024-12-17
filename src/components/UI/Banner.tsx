@@ -23,7 +23,7 @@ const Banner = () => {
         <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
         {/* Content */}
-        <div className="relative max-w-[1203px] mx-auto z-10 flex flex-col md:flex-row items-center justify-center md:justify-between  gap-4 h-full px-6">
+        <div className="relative max-w-[1203px] mx-auto z-10 flex flex-col md:flex-row items-center justify-center md:justify-between  gap-4 h-full px-3 md:px-6">
           {/* Left Text Content */}
           <div className="text-white md:w-1/2 text-center mt-32 md:mt-0 md:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold md:leading-tight">
