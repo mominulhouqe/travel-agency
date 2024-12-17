@@ -1,6 +1,6 @@
 const Form = () => {
   return (
-    <div className="bg-black bg-opacity-20 backdrop-blur-md rounded-lg p-6 text-white  w-full">
+    <div className="bg-[#F4F4F433] bg-opacity-70 backdrop-blur-md rounded-lg p-6 text-white  w-full">
       <div className="">
         <h1 className="text-3xl font-semibold text-center mb-6">
           Sign Up with Email
