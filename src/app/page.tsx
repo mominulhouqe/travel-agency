@@ -6,6 +6,7 @@ import Banner from "@/components/UI/Banner";
 import Community from "@/components/UI/Community";
 import Expert from "@/components/UI/Expert";
 import Faq from "@/components/UI/Faq";
+import TestimonialSection from "@/components/UI/TestimonialSection";
 import Traveler from "@/components/UI/Travelar";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
       <Community />
       <Traveler />
       <Expert />
-
+      <TestimonialSection />
       <Faq />
       <Footer />
     </div>
