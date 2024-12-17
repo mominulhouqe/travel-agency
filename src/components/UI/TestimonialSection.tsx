@@ -2,6 +2,7 @@ import Image from "next/image";
 import img1 from "@/assets/100241b1dbdcbaed256124c7a92469d4.png";
 import comma1 from "@/assets/icons/comma.png";
 import comma2 from "@/assets/icons/comma (1).png";
+import Tilt from "react-parallax-tilt";
 
 const TestimonialSection = () => {
   return (
@@ -22,29 +23,31 @@ const TestimonialSection = () => {
 
       <div className="relative grid md:grid-cols-2 gap-4 w-full  bg-white rounded-lg p-3 lg:p-12  mx-auto">
         {/* Left Side */}
-        <div className="bg-blue-600  -skew-y-12  text-white rounded-lg p-6 w-full  relative">
-          <div className="flex items-center justify-between space-x-4 mb-4">
-            <Image
-              src={img1}
-              alt="User"
-              width={64}
-              height={64}
-              className="w-20 h-20 rounded-full "
-            />
+        <Tilt className="background-stripes parallax-effect" perspective={500}>
+          <div className="bg-blue-600    text-white rounded-lg p-6 w-full  relative">
+            <div className="flex items-center justify-between space-x-4 mb-4">
+              <Image
+                src={img1}
+                alt="User"
+                width={64}
+                height={64}
+                className="w-20 h-20 rounded-full "
+              />
 
-            <div className="text-sm">
-              <p className="mt-2 flex items-center justify-end">
-                <span className="text-yellow-300 text-xl mr-1">★</span> 5.0
-              </p>
+              <div className="text-sm">
+                <p className="mt-2 flex items-center justify-end">
+                  <span className="text-yellow-300 text-xl mr-1">★</span> 5.0
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold mb-2">Sarah Thompson</h3>
+              <p className="text-sm mb-2">Teacher · Non-smoker · Married</p>
+              <p className="text-sm">Silom, Bangkok</p>
             </div>
           </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-2">Sarah Thompson</h3>
-            <p className="text-sm mb-2">Teacher · Non-smoker · Married</p>
-            <p className="text-sm">Silom, Bangkok</p>
-          </div>
-        </div>
+        </Tilt>
 
         {/* Right Side */}
         <div className="p-6 w-full ">
