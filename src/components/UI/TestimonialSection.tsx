@@ -7,10 +7,7 @@ const TestimonialSection = () => {
   return (
     <div className="bg-gray-100  my-28 max-w-[1203px] p-[15px]  mx-auto">
       <div className="text-center mb-12">
-        <p
-          className="bg-[#0872BA4D] mx-auto px-2 pt-1  rounded-lg text-center"
-          style={{ width: "146px", height: "40px" }}
-        >
+        <p className="bg-[#0872BA4D] mx-auto px-2 pt-1 -skew-y-12 rounded-lg text-center w-[140px] h-[40px] ">
           Testimonial
         </p>
         <h2 className="md:text-4xl text-lg my-3  font-bold text-gray-800">
@@ -25,7 +22,7 @@ const TestimonialSection = () => {
 
       <div className="relative grid md:grid-cols-2 gap-4 w-full  bg-white rounded-lg p-3 lg:p-12  mx-auto">
         {/* Left Side */}
-        <div className="bg-blue-600  text-white rounded-lg p-6 w-full  relative">
+        <div className="bg-blue-600  -skew-y-12  text-white rounded-lg p-6 w-full  relative">
           <div className="flex items-center justify-between space-x-4 mb-4">
             <Image
               src={img1}

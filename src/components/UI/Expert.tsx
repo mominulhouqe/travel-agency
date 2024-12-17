@@ -10,10 +10,7 @@ const Expert = () => {
     <div className="my-28 max-w-[1203px] px-[15px]  mx-auto ">
       {/* section-1  */}
       <div className="text-center">
-        <p
-          className="bg-[#0872BA4D] mx-auto px-2 pt-1  rounded-lg text-center"
-          style={{ width: "146px", height: "40px" }}
-        >
+        <p className="bg-[#0872BA4D] mx-auto px-2 pt-1   -skew-y-12  rounded-lg text-center w-[140px] h-[40px">
           Why choose us?
         </p>
         <h1 className="text-[#1D2939] text-2xl md:text-5xl font-bold mt-6">
