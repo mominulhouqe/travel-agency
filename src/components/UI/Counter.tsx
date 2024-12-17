@@ -5,7 +5,7 @@ import img3 from "@/assets/icons/Traveling-bro 1.jpg";
 
 const Counter = () => {
   return (
-    <div className="max-w-[1203px] px-[15px]  bg-white rounded-2xl mb-4 mx-auto mt-4 md:-mt-16 z-20 relative  md:h-[270px] ">
+    <div className="max-w-[1170px] w-full px-[15px]  bg-white rounded-2xl mb-4 mx-auto mt-4 md:-mt-16 z-20 relative  md:h-[270px] ">
       <div className="grid grid-cols-1  sm:grid-cols-3 ">
         {/* Card 1 */}
         <div className="flex flex-col items-start text-left  p-6 rounded-2xl ">
